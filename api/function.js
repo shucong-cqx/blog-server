@@ -8,7 +8,7 @@ class Allfunction {
         //是
 
         //否
-        
+
     }
     //密码登录函数
     async pwdLogin(req,res) {
@@ -27,7 +27,6 @@ class Allfunction {
         //否 -> 注册
 
         //是 -> 登录
-        
     }
     //获取用户信息
     async getUserInfo(req, res) {
