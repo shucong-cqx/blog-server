@@ -1,13 +1,15 @@
 const express = require('express')
+const moment = require('moment')
+const os = require('os')
 const router = express.Router()
-router.use((req,res,next)=>{
-    console.log('Time: ',Date.now())
+const network = os.networkInterfaces()
+
+router.use('*',(req,res,next)=>{
+    let time = moment().format("YYYY-MM-DD HH:mm:ss")
+    console.log(time)
     next()
 })
-
-router.get('/info',(req,res)=>{
-    const name= req.query.username
-    res.send({message:'helllo',name,pwd:123})
-})
+//获取所有用户信息
+router.get('/info',require('./function').getUserInfo)
 
 module.exports=router
