@@ -6,7 +6,6 @@ class Allfunction {
         //判断是否已注册
 
         //是
-        
 
         //否
     }
