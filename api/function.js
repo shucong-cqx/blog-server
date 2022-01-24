@@ -27,7 +27,6 @@ class Allfunction {
         //否 -> 注册
 
         //是 -> 登录
-        
     }
     //获取用户信息
     async getUserInfo(req, res) {
