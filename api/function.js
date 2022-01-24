@@ -8,7 +8,6 @@ class Allfunction {
         //是
 
         //否
-
     }
     //密码登录函数
     async pwdLogin(req,res) {
@@ -19,7 +18,6 @@ class Allfunction {
         //是 -> 登录
 
             //判断密码
-
     }
     //验证码登录
     async phoneLocin() {
