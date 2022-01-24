@@ -19,6 +19,7 @@ class Allfunction {
         //是 -> 登录
 
             //判断密码
+
     }
     //验证码登录
     async phoneLocin() {
@@ -27,6 +28,7 @@ class Allfunction {
         //否 -> 注册
 
         //是 -> 登录
+        
     }
     //获取用户信息
     async getUserInfo(req, res) {
