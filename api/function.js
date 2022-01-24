@@ -9,7 +9,6 @@ class Allfunction {
         
 
         //否
-
     }
     //密码登录函数
     async pwdLogin(req,res) {
